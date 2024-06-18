@@ -20,3 +20,5 @@ If the value exceeds 255, it should 'wrap'. ie. if the value is 345 it should wr
 function encrypt(text, rule) {
   return text.replace(/./g, c => String.fromCharCode((c.charCodeAt() + rule) & 255))
 }
+
+// or
