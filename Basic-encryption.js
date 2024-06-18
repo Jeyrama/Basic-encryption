@@ -13,3 +13,6 @@ Example:
 Full ascii table is used on our question (256 chars) - so 0-255 are the valid values.
 If the value exceeds 255, it should 'wrap'. ie. if the value is 345 it should wrap to 89. 
 */
+
+
+// Solution
